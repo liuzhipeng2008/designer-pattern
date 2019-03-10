@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="design-pattern-all" />
+        <module name="design-pattern-singleton" />
         <module name="designer-pattern-factory" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="design-pattern-all" target="1.5" />
+      <module name="design-pattern-singleton" target="1.5" />
       <module name="designer-pattern-factory" target="1.5" />
     </bytecodeTargetLevel>
   </component>
