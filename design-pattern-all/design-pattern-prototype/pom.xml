@@ -4,13 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.bs.gp.iceapex</groupId>
-    <artifactId>design-pattern-all</artifactId>
+    <groupId>bs.com.gp.iceapex</groupId>
+    <artifactId>design-pattern-prototype</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>design-pattern-factory</module>
-        <module>design-pattern-singleton</module>
-        <module>design-pattern-prototype</module>
-    </modules>
+
 
 </project>
