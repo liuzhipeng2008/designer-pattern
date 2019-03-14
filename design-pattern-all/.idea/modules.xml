@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/design-pattern-all.iml" filepath="$PROJECT_DIR$/design-pattern-all.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-prototype/design-pattern-prototype.iml" filepath="$PROJECT_DIR$/design-pattern-prototype/design-pattern-prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-pattern-proxy/design-pattern-proxy.iml" filepath="$PROJECT_DIR$/design-pattern-proxy/design-pattern-proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-singleton/design-pattern-singleton.iml" filepath="$PROJECT_DIR$/design-pattern-singleton/design-pattern-singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-factory/designer-pattern-factory.iml" filepath="$PROJECT_DIR$/design-pattern-factory/designer-pattern-factory.iml" />
     </modules>
