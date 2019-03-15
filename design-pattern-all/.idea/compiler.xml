@@ -7,18 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="design-pattern-all" />
+        <module name="design-pattern-delegate" />
         <module name="design-pattern-prototype" />
         <module name="design-pattern-proxy" />
         <module name="design-pattern-singleton" />
+        <module name="design-pattern-strategy" />
         <module name="designer-pattern-factory" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="design-pattern-all" target="1.5" />
-      <module name="design-pattern-prototype" target="1.5" />
-      <module name="design-pattern-proxy" target="6" />
-      <module name="design-pattern-singleton" target="1.5" />
-      <module name="designer-pattern-factory" target="1.5" />
+    <bytecodeTargetLevel target="8">
+      <module name="design-pattern-all" target="8" />
+      <module name="design-pattern-delegate" target="8" />
+      <module name="design-pattern-prototype" target="8" />
+      <module name="design-pattern-proxy" target="8" />
+      <module name="design-pattern-singleton" target="8" />
+      <module name="design-pattern-strategy" target="8" />
+      <module name="designer-pattern-factory" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

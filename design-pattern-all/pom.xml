@@ -12,6 +12,8 @@
         <module>design-pattern-singleton</module>
         <module>design-pattern-prototype</module>
         <module>design-pattern-proxy</module>
+        <module>design-pattern-delegate</module>
+        <module>design-pattern-strategy</module>
     </modules>
 
 </project>

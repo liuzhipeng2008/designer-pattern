@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.web.servlet.DispatcherServlet</OriginalElement>
+  <nodes>
+    <node x="541.0" y="95.0">org.springframework.web.servlet.ModelAndView</node>
+    <node x="550.0" y="0.0">org.springframework.web.servlet.View</node>
+    <node x="362.0" y="95.0">org.springframework.web.servlet.ViewResolver</node>
+    <node x="189.0" y="95.0">org.springframework.web.servlet.HandlerMapping</node>
+    <node x="276.125" y="220.0">org.springframework.web.servlet.DispatcherServlet</node>
+    <node x="0.0" y="95.0">org.springframework.web.servlet.ThemeResolver</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.web.servlet.HandlerMapping" target="org.springframework.web.servlet.HandlerMapping">
+      <point x="-51.0" y="17.5" />
+      <point x="214.5" y="150.0" />
+      <point x="169.0" y="150.0" />
+      <point x="169.0" y="112.5" />
+      <point x="-76.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.DispatcherServlet" target="org.springframework.web.servlet.ThemeResolver">
+      <point x="-50.3125" y="-17.5" />
+      <point x="306.3125" y="190.0" />
+      <point x="111.75" y="190.0" />
+      <point x="37.25" y="17.5" />
+    </edge>
+    <edge source="org.springframework.web.servlet.DispatcherServlet" target="org.springframework.web.servlet.ModelAndView">
+      <point x="50.3125" y="-17.5" />
+      <point x="406.9375" y="190.0" />
+      <point x="652.0" y="190.0" />
+      <point x="37.0" y="17.5" />
+    </edge>
+    <edge source="org.springframework.web.servlet.DispatcherServlet" target="org.springframework.web.servlet.HandlerMapping">
+      <point x="-30.1875" y="-17.5" />
+      <point x="326.4375" y="180.0" />
+      <point x="265.5" y="180.0" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="org.springframework.web.servlet.ModelAndView" target="org.springframework.web.servlet.ModelAndView">
+      <point x="-37.0" y="17.5" />
+      <point x="578.0" y="150.0" />
+      <point x="521.0" y="150.0" />
+      <point x="521.0" y="112.5" />
+      <point x="-74.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.ViewResolver" target="org.springframework.web.servlet.View">
+      <point x="0.0" y="-17.5" />
+      <point x="431.5" y="75.0" />
+      <point x="583.75" y="75.0" />
+      <point x="-11.25" y="17.5" />
+    </edge>
+    <edge source="org.springframework.web.servlet.ModelAndView" target="org.springframework.web.servlet.View">
+      <point x="0.0" y="-17.5" />
+      <point x="615.0" y="75.0" />
+      <point x="606.25" y="75.0" />
+      <point x="11.25" y="17.5" />
+    </edge>
+    <edge source="org.springframework.web.servlet.View" target="org.springframework.web.servlet.View">
+      <point x="-33.75" y="17.5" />
+      <point x="561.25" y="55.0" />
+      <point x="530.0" y="55.0" />
+      <point x="530.0" y="17.5" />
+      <point x="-45.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.DispatcherServlet" target="org.springframework.web.servlet.ViewResolver">
+      <point x="30.1875" y="-17.5" />
+      <point x="386.8125" y="180.0" />
+      <point x="466.25" y="180.0" />
+      <point x="34.75" y="17.5" />
+    </edge>
+    <edge source="org.springframework.web.servlet.DispatcherServlet" target="org.springframework.web.servlet.View">
+      <point x="70.4375" y="-17.5" />
+      <point x="427.0625" y="200.0" />
+      <point x="699.5" y="200.0" />
+      <point x="699.5" y="75.0" />
+      <point x="628.75" y="75.0" />
+      <point x="33.75" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="265.5" y="122.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
