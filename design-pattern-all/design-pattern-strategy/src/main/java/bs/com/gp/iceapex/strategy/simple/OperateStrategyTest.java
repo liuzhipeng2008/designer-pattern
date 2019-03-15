@@ -1,9 +1,10 @@
 package bs.com.gp.iceapex.strategy.simple;
 
+import bs.com.gp.iceapex.strategy.simple.Consts.OperatorConsts;
+
 public class OperateStrategyTest {
     public static void main(String[] args) {
-        OperateStrategy os = new OperateStrategy();
-        int result = os.calc("add", 10, 11);
-        System.out.println(result);
+        OperateStrategy operateStrategy = new OperateStrategy(OperateFactory.getOperate(OperatorConsts.ADD));
+        System.out.println(operateStrategy.calc(1,3));
     }
 }

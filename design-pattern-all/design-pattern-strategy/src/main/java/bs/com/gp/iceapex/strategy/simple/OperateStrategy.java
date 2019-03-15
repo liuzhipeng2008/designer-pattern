@@ -1,20 +1,15 @@
 package bs.com.gp.iceapex.strategy.simple;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class OperateStrategy {
 
-    private static Map<String,IOperate> map = new HashMap<>();
+    private IOperate operate;
 
-    static{
-        map.put("add",new AddOperate());
-        map.put("plus",new PlusOperate());
+    public OperateStrategy(IOperate operate) {
+        this.operate = operate;
     }
 
-    public int calc(String operType,int a,int b){
-        IOperate operate = map.get(operType);
-        return operate.calc(a,b);
+    public int calc(int a,int b){
+       return this.operate.calc(a,b);
     }
 
 }
