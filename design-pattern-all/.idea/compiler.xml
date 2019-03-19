@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="design-pattern-all" />
         <module name="design-pattern-delegate" />
+        <module name="design-pattern-observer" />
         <module name="design-pattern-prototype" />
         <module name="design-pattern-proxy" />
         <module name="design-pattern-singleton" />
@@ -18,6 +19,7 @@
     <bytecodeTargetLevel target="8">
       <module name="design-pattern-all" target="8" />
       <module name="design-pattern-delegate" target="8" />
+      <module name="design-pattern-observer" target="8" />
       <module name="design-pattern-prototype" target="8" />
       <module name="design-pattern-proxy" target="8" />
       <module name="design-pattern-singleton" target="8" />

@@ -14,6 +14,7 @@
         <module>design-pattern-proxy</module>
         <module>design-pattern-delegate</module>
         <module>design-pattern-strategy</module>
+        <module>design-pattern-observer</module>
     </modules>
 
 </project>
